@@ -1,0 +1,9 @@
+BEGIN
+  READ x1;
+  READ y_2;
+  x1 := 5;
+  y_2 := 42;
+  x1 := x1 + y_2;
+  WRITE x1;
+  WRITE 123;
+END
